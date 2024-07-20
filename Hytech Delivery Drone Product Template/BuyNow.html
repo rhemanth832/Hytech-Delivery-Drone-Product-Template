@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Buy Now</title>
+    <style>
+        *{
+            margin:0%
+        }
+        .main-background {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 200px;
+            background-image: linear-gradient(to right, #2e3192,#1BFFFF);
+        }
+        .img-class{
+            margin-right: 40px;
+            border-radius: 10px;
+            width: 500px;
+            height: 350px;
+            transition: opacity 2s;;
+            
+        }
+        .img-class:hover{
+            width: 700px;
+            height: 450px;
+        }
+        .buynow-button{
+            margin-right: 15px;
+            height: 50px;
+            width: 170px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            color: white;
+            font-size: 20px;
+            font-family: 'roboto';
+            background-color:  #555555;
+            border-radius: 5px;
+            border-width: 0px;
+        }
+        .buynow-button:hover{
+            opacity: 0.8px;
+            padding-left: 35px;
+            padding-right: 35px;
+
+        }
+        .sub-background{
+            display: flex;
+            flex-direction: row;
+            background-color: white;
+            padding: 100px;
+            border-radius: 10px;
+        }
+        .inline-class{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .add-to-cart-div{
+            display: block;
+            
+        }
+        .flex-class{
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            
+        }
+        .h2-class{
+            font-family: 'roboto';
+            padding: 5px;
+        }
+        .h4-class{
+            padding: 5px;
+            
+        }
+        .checked {
+            
+            color: orange;
+        }
+        .star-class{
+            display: flex;
+            flex-direction: row;
+        }
+       
+        .quantity-container {
+            font-size: large;
+            margin: 10px;
+            margin-right: 220px;
+        }
+        .faq-class{
+            margin-top: 10px;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .review-p{
+            margin-left: 5px;
+            font-size: large;
+            margin-bottom: 0px;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="main-background">
+        <div class="sub-background">
+            <div><img src="drone.jpg.jpg" alt="" class="img-class"></div>
+            
+        <div class="flex-class">
+            <h1 class="h2-class">Hytech Delivery Drone</h1>
+            <h2 class="h4-class">Price $50</h2>
+            <div class="star-class">
+            <p class="review-p">ratings:  </p>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            
+            </div>
+
+            
+
+          <div class="inline-class">
+
+            <div class="quantity-container">
+                <label for="quantity">Quantity :</label>
+    
+                <select id="quantity" class="quantity-class">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            
+         </div>
+
+         <div>
+         <button class="buynow-button">Buy Now</button>
+         </div>
+         <h3 class="faq-class"><u>Frequently Asked Questions:</u></h3>
+            <h3>Q: What sets the Hytech Delivery Drone apart from others on the market?</h3>
+            <p>A: The Hytech Delivery Drone stands out with superior battery life, high payload capacity, and robust design for reliable performance in any weather.</p>
+         <div>
+            
+         </div>
+</div>
+</div>
+    
+</body>
+</html>
